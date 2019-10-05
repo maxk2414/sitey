@@ -1,0 +1,105 @@
+body {
+	position: relative;
+	width: 1440px;
+	height: 4008px;
+	background: #FFFFFF;
+}
+#gradient{
+  min-height: 900px;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+background-image: 
+linear-gradient(90deg, #424C55 0%, rgba(66, 76, 85, 0.75) 47.22%, rgba(66, 76, 85, 0.25) 100% 100%);
+}
+#top-nuts-image{
+	min-height: 900px;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+}
+#logo{
+position: absolute;
+width: 92.16px;
+height: 120px;
+left: 80px;
+top: 40px;
+z-index: 2;
+}
+h1{
+position: absolute;
+width: 411px;
+height: 216px;
+left: 80px;
+top: 260px;
+color: #FFFFFF;
+font-family: Aleo;
+font-style: normal;
+font-weight: normal;
+font-size: 54px;
+line-height: 72px;
+/* or 133% */
+}
+#nori{
+	color: #6F9942;
+}
+#try{
+	position: absolute;
+width: 288px;
+height: 58px;
+left: 80px;
+top: 579px;
+color: #FFFFFF;
+font-family: Aleo;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+}
+button{
+	position: absolute;
+width: 285px;
+height: 79px;
+left: 80px;
+top: 677px;
+
+/* Yellow */
+background: #F6AE2D;
+border-radius: 5px;
+}
+#buttontext{
+	width: 205px;
+height: 29px;
+left: 120px;
+top: 702px;
+
+font-family: Aleo;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+/* White */
+color: #FFFFFF;
+}
+#rectangle{
+	position: absolute;
+width: 1440px;
+height: 118px;
+left: 0px;
+top: 900px;
+
+/* Green */
+background-color: #6F9942;
+}
